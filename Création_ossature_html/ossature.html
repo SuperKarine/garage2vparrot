@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- -->
+<img src="" alt="">
+
+<!--La balise lien a hyperlien vers une autre page, pour naviguer de page en page -->
+<p> Nos services<a href="">Nos services</a></p>
+<p> Accueil<a href="index.html">Accueil</a></p>
+
+<!--Lien en chemin relatif -->
+<p><a href="index.html">Accueil</a></p>
+
+<!--Lien en chemin relatif pour rentre dans un répertoire de l'image pour la page accueil par exemple-->
+<p><a href="images/voitures_occasion.jpg">Logo</a></p>
+
+<!--Lien pour remonter d'un niveau -->
+<p><a href="../selection/criteres_de_selection">Remonter d'un niveau</a></p>
+
+<!--Les listes -->
+<ul>
+    <li>Reparation mecanique</li>
+    <li>Voitures d'occasion</li>
+
+</ul>
+
+<!--Pour faire les tableaux -->
+<!--A mettre dans le css : width="80%" border="1" cellspacing="0" cellpadding="10"-->
+
+<table width="80%" border="1" cellspacing="0" cellpadding="10">
+    <caption>
+
+    </caption>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+
+<!--Le formulaire -->
+
+<form method="get" action="traitement-form.php">
+    <fieldset>
+        <legend>Formulaire</legend>
+
+        <label for="nom">Nom <sup>*</sup></label>
+        <input id="nom" type="text"name="last_name" placeholder="Veuillez saisir votre nom" required>
+    </fieldset>
+
+</form>
+
+<!--Le formulaire version mobile -->
+
+
+<form method="get" action="traitement-form.php">
+    <fieldset>
+        <legend>Formulaire</legend>
+<p>
+    <label for="nom">Nom <sup>*</sup></label>
+    <input id="nom" type="text"name="last_name" placeholder="Veuillez saisir votre nom" required>
+</p>
+
+    </fieldset>
+
+</form>
+
+
+
+<form method="get" action="traitement-form.php">
+    <fieldset>
+        <legend>Formulaire</legend>
+
+        <p>
+            <label for="search">Recherche</label>
+            <input id="search" type="search"name="search">
+        </p>
+
+        <p>
+            <label for="mail">E-mail</label>
+            <input id="mail" type="email"name="name">
+        </p>
+
+        <p>
+            <label for="phone">Téléphone</label>
+            <input id="phone" type="tel"name="phone">
+        </p>
+
+        <p>
+            <label for="date">Date</label>
+            <input id="date" type="date"name="date">
+        </p>
+
+        <p>
+            <label for="time">Heure</label>
+            <input id="time" type="time"name="time">
+        </p>
+
+        <p>
+            <label for="number">Nombre</label>
+            <input id="number" type="number"name="number" min="0" max="100" step="10">
+        </p>
+
+        <p>
+            <label for="url">url</label>
+            <input id="url" type="number"name="url">
+        </p>
+
+        <p>
+            <label for="color">Couleur</label>
+            <input id="color" type="color"name="color">
+        </p>
+
+        <p>
+            <label for="File">Fichier</label>
+            <input id="File" type="File"name="File">
+        </p>
+
+        <p>
+            <input id="submit" type="submit" value="Envoyer">
+        </p>
+
+        <!--Les boutons radio -->
+
+        <p>Sélectionner votre configuration</p>
+
+        <p>
+            <label for="conf1">4Go de ram</label>
+            <input id="conf1" type="radio" name="config" value="4Go ram" checked>
+        </p>
+
+        <p>
+            <label for="conf2">8Go de ram</label>
+            <input id="conf2" type="radio" name="config" value="8Go ram">
+        </p>
+
+        <!--Les cases à cocher -->
+        <p>Sélectionnez vos ingrédients</p>
+
+        <p>
+            <label for="ingr1">Fromage</label>
+            <input id="ingr1" type="checkbox" name="ingrédients" value="Fromage">
+        </p>
+
+        <!--Balise de formulaire pour écrire un commentaire ou un message -->
+
+        <p>
+            <label for="msg">Message</label>
+            <textarea id="msg" placeholder="Veuillez saisir votre message"></textarea>
+            <!-- après le placeholder pour agrandir la case je peux mettre un cols="30" rows="10"
+            ou voir en css pour redimenssionner la taille du cadre dans le textarea et maxlength="10" (max= 10 caractères-->
+        </p>
+
+
+        </p>
+
+        <p>
+            <label for="ingr2">Jambon</label>
+            <input id="ingr2" type="checkbox" name="ingrédients" value="Jambon">
+        </p>
+
+        <p>
+            <label for="objet">Votre demande concerne</label>
+            <select id="objet" name="product" required>
+            <option value="">---</option>
+            <option value="réparation">Une réparation</option>
+            <option value="installation">Une installation</option>
+            <option value="conseil">Un conseil</option>
+            <option value="Autre demande">Une autre demande</option></select>
+        </p>
+
+        <p>
+            <label for="objet-2">Personnalisez</label>
+            <select id="objet-2" name="product-2" multiple="multiple">
+
+                <optgroup label="Taille">
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </optgroup>
+
+                <optgroup label="Couleur">
+                    <option value="Couleur 1">Couleur 1</option>
+                    <option value="Couleur 2">Couleur 2</option>
+                    <option value="Couleur 3">Couleur 3</option>
+                </optgroup>
+            </select>
+        </p>
+
+    </fieldset>
+</form>
+
+<!--Element Div pour diviser mon document-->
+
+
+
+<h1> </h1>
+<p> </p>
+
+
+
+<!-- -->
+<ul>
+    <li>
+        <p> </p>
+
+
+    </li>
+</ul>
+<!--Pour le css: dans .main : h1 + p {
+  background color : ;
+  }-->
+
+
+
+</body>
+</html>
