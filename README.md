@@ -6,10 +6,13 @@ Pour le back end j'ai utilisé php qui ne demande que des connaissances en HTML,
 Php, étant utilisé par une grande communauté, je peux trouvé de l'aide pour un problème plus facilement qu'un autre
 langage back end sur le web.
 
-Sur PHP, j'ai créer un espace administrateur, une base de donnée en SQL avec MySQL.
+Sur PHP, j'ai créer un espace administrateur, une base de donnée en SQL avec MySQL en localhost avant de chercher à créer la base MySQL sur Heroku.
 
-J'ai créer une maquette avec FIGMA ainsi qu'une carte graphique dont voici le
+J'ai créé une maquette avec FIGMA ainsi qu'une carte graphique dont voici le
 lien : https://www.figma.com/file/lJ7drlxOBTXID2dWmMlKmo/Maquette-Garage-V-Parrot?type=design&node-id=0%3A1&mode=design&t=lrk0nfaBlchHFl67-1
-Un trello : https://trello.com/invite/b/Pa83NEZe/ATTIf06012a60de35a636c1e8523318ee941198EB0B6/fiche-de-travail
 
-Des diagrammes de classes, séquences et crées sur Drawio.
+J'ai créé un trello : https://trello.com/invite/b/Pa83NEZe/ATTIf06012a60de35a636c1e8523318ee941198EB0B6/fiche-de-travail
+
+Le site déployé est à l'adresse : https://garage2vparrot-34d0acbb5972.herokuapp.com
+
+Des diagrammes de classes, séquences et crées sur Drawio sont dans ce dossier
