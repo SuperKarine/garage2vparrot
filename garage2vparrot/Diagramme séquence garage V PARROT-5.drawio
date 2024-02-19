@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-08-31T22:46:17.032Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.1.15" etag="OXYPMSb7rSHXIFyhyPXB" version="21.6.7" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="935" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gePYQQojs46DnIE3U24d-2" value="Diagramme de séquences &amp;nbsp;Garage V PARROT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="10" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gePYQQojs46DnIE3U24d-3" value="Visiteur" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gePYQQojs46DnIE3U24d-5" value="Serveur web du garage avec ses fonctions" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="230" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gePYQQojs46DnIE3U24d-6" value="Base de données des véhicules d&#39;occasion" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gePYQQojs46DnIE3U24d-7" value="Véhicules d&#39;occasion" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gePYQQojs46DnIE3U24d-8" value="Formulaires questions" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="720" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gePYQQojs46DnIE3U24d-9" value="Formulaires réponses" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="850" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gePYQQojs46DnIE3U24d-10" value="Employés" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="990" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gePYQQojs46DnIE3U24d-11" value="Système de gestion des véhicules d&#39;occasion" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gePYQQojs46DnIE3U24d-12" value="Système de gestion des réparations" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gePYQQojs46DnIE3U24d-13" value="Base de données des réparations" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="90" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gePYQQojs46DnIE3U24d-14" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
