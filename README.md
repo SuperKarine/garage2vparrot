@@ -8,7 +8,7 @@ ECF février 2024, Karine SCHULZ graduate développeur web et web mobile chez St
 
 - Sur PHP, en local tout d'abord, j'ai créer un espace administrateur, une base de donnée en SQL avec MySQL.
 
-<h1>Front et travail</h1>
+<h1>Processus de travail</h1>
 
 J'ai créé :
 
