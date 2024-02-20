@@ -30,3 +30,4 @@ J'ai bien réussi à créer un espace Heroku pour accueillir le site internet et
   pas accessible le site internet)
 * Je n'ai pas réussi à finir d'installer MySQL sur Heroku et m'assurer que mon code php utilise le MySQL de Heroku au
   lieu de mon localhost:8889 (MAMP) qui fonctionne bien en local lors de mon travail
+* (Si free.fr créé mon espace web demandé, incluant un MySQL, je déploierai alors sur http://mon1site1web.free.fr au lieu d'Heroku)
